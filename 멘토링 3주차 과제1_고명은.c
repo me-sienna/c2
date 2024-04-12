@@ -19,3 +19,13 @@ int main(void) {
 	}
 	return 0;
 }
+
+#include <stdio.h>
+
+int main(void) {
+	int i;
+	for (i = 33; i < 127; i++) {
+		printf("%d %x %c", i, i, i);
+	}
+	return 0;
+}
