@@ -15,7 +15,7 @@ int getch() {
 
 void ungetch(int c) {
 	if (bufp >= BUFSIZE) {
-		prinf("ERROR\n");
+		printf("ERROR\n");
 	}
 	else {
 		buf[bufp++] = c;
